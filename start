@@ -1,0 +1,2 @@
+gunicorn --bind 0.0.0.0:8003 --access-logfile /tmp/log/gunicorn/access_log2 wsgi&
+echo $! > gunicorn.pid 
